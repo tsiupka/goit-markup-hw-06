@@ -58,11 +58,43 @@
                     </use>
                   </svg>
     </button>
+    <div>
+      <p class="modal-form-p">Оставьте свои данные, мы вам перезвоним</p>
+      <form class="modal-form">
+        <label class="form-label"><span class="form-element-name">Имя</span>
+        <input class="label-input" type="text" name="name" id="name"/>
+      <svg class="label-logo" width="18" height="18">
+       <use href="./images/sprite.svg#person-logo"></use></svg></label>
+
+        <label class="form-label"><span class="form-element-name">Телефон</span>
+        <input class="label-input" type="tel" name="tel" id="tel"/><svg class="label-logo" width="18" height="18">
+       <use href="./images/sprite.svg#phone-logo"></use></svg></label>
+
+        <label class="form-label"><span class="form-element-name">Почта</span>
+        <input class="label-input" type="email" name="mail" id="mail"/><svg class="label-logo" width="18" height="18">
+       <use href="./images/sprite.svg#email-logo"></use></svg></label>
+
+        <label class="form-label"><span class="form-element-name coments">Комментарий</span>
+        <textarea class="label-textarea" name="coments" placeholder="Введите текст"></textarea></label>
+
+      <label class="form-label-checkbox"><input class="form-checkbox" type="checkbox" name="agreement" value="agreement" />
+        <span class="checkbox-text">Соглашаюсь с рассылкой и принимаю&nbsp<a class="agreement-link" href="">Условия договора</a></span>
+         
+    
+    </label>
+       <button class="modal-submit-button" type="submit">Отправить</button>
+  
+        
+
+
+
+      </form>
+    </div>
   </div>
 </div>
-<!--<input type="button" value="Заказать услугу"> -->
-</section> 
 </div>
+</section> 
+
 <section class="our-goals-section">
     <div class="container">
         <h2>our-goals</h2> <!--hide-when-styling-->
@@ -397,6 +429,20 @@
           </ul>
 
         </div>
+        <div class="footer-signup">
+            <p class="signup-p">Подпишитесь на рассылку</p>
+            <form class="footer-signup-form">
+              <label class="signup-area">
+                <input class="signup-input" type="email" name="email" placeholder="E-mail" />
+              </label>
+              <button class="signup-button-footer" type="submit">
+                Подписаться
+                <svg class="send-footer-logo" width="24px" height="24px">
+                  <use href="./images/sprite.svg#send-footer"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
 
 </footer><!--end-of-footer-section--><!--end-of-footer-section-->
